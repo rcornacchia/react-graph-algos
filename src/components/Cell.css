@@ -1,0 +1,17 @@
+.zero {
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 1px;
+  float: left;
+}
+
+.one {
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 1px;
+  float: left;
+}
