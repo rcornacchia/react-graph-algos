@@ -1,5 +1,5 @@
 .zero {
-  background-color: red;
+  background-color: blue;
   height: 40px;
   width: 40px;
   border: 1px solid black;
@@ -8,7 +8,16 @@
 }
 
 .one {
-  background-color: blue;
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 1px;
+  float: left;
+}
+
+.two {
+  background-color: orange;
   height: 40px;
   width: 40px;
   border: 1px solid black;

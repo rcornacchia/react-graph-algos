@@ -10,6 +10,24 @@ class App extends Component {
                     [0, 1, 1, 0],
                     [0, 0, 0, 0]];
 
+    const start = [0, 0];
+    const rows = matrix.length;
+    const cols = matrix[0].length;
+    const end = [0, 3];
+    const q = [start];
+
+    while(q.length) {
+      let curr;
+      const [x, y] = curr = q.pop();
+      
+      // mark cell as visited
+      matrix[x][y] = 2;
+      if (curr === end) console.log('Escaped!');
+      else {
+
+      }
+    }
+
     return <Grid matrix={matrix} />;
   }
 }
