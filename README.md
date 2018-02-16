@@ -1,3 +1,3 @@
 # React Graph Algorithms
 
-Visualizing graph alogrithms with React!
+Visualizing graph algorithms with React!
